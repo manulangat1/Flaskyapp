@@ -1,0 +1,38 @@
+#ho{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.forms{
+  width: 90%;
+  margin: auto;
+}
+.forms .label{
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.forms .text-input{
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #333;
+  margin-bottom: 1rem;
+}
+.btn{
+  padding: 1rem;
+  border: 0;
+  color: #ff7239;
+  border-radius: 25px;
+  background: #333;
+}
+.ps{
+  color: green;
+}
+.ps a {
+  text-decoration: none;
+}
+.ps h1{
+  line-height: 3rem;
+}

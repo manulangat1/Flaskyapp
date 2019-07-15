@@ -1,0 +1,50 @@
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 75vh;
+}
+.logF{
+  width: 80%;
+  text-align: left;
+}
+.label{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-transform: capitalize;
+}
+.s-btn{
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: capitalize;
+}
+.s-l{
+  padding: 0.5rem;
+  height: 1rem;
+  margin: 0 1rem;
+}
+.text-input{
+  padding:  1rem;
+  width: 80%;
+  color: #ccc;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background: #181818;
+  margin-bottom: 1rem;
+}
+.btn{
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background: #f96816;
+  border: 0;
+  height: 2.7rem;
+  transition: all .2s
+}
+.btn:hover{
+  border-radius: 50px;
+  background: #927239;
+  border: 1px solid #ffffff;
+}

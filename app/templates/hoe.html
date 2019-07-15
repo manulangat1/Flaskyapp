@@ -1,0 +1,8 @@
+{% extends 'base.html'%}
+{% block body %}
+       {% if post %}
+          <h1>{{post.name}}</h1>
+          <p>{{post.details}}</p>
+          <p>{{post.posted}}</p>
+       {% endif %}
+{% endblock %}

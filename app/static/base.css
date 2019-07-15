@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  max-width: 100vw;
+}
+header{
+  width: 100vw;
+  height: 60px;
+  background: #333;
+  top: 0;
+  padding: 1rem;
+  z-index: 39;
+  position: fixed;
+  top: 0;
+}
+header .right{
+  float: left;
+}
+header .left{
+  float: right;
+}
+header ul{
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}
+#home{
+  max-width: 80%;
+  margin: auto;
+  margin-top: 6rem;
+}
+header li{
+  /* display: inline; */
+  float: left;
+}
+header a{
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+
+footer{
+  background: #926239;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* styling the log in part */

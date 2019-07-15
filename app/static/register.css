@@ -1,0 +1,35 @@
+.reg-form{
+  /* margin-top: 6rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+form{
+  width: 70%;
+  margin: auto;
+}
+.label{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.text-input{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  background: #181818;
+  color: #f4f4f4;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.btn{
+  border: 0;
+  padding: 1rem;
+  border-radius: 30px;
+  color: #ccc;
+  background: #ff7b39
+}

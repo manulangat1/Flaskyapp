@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+{% block title%}
+<link rel="stylesheet" href="{{ url_for('static',filename='base.css')}}">
+<link rel="stylesheet" href="{{ url_for('static',filename='login.css')}}">
+<title>{{title}}</title>
+{% endblock %}
+{% block body %}
+   <div class="form">
+     <form class="logF" method="post">
+       {{form.hidden_tag()}}
+       <div class="form-group">
+         <label for="" class="label">{{form.username.label}}</label>
+         {{form.username(size=32,class="text-input")}}
+       </div>
+       <div class="form-group">
+         <label for="" class="label">{{form.password.label}}</label>
+         {{form.password(size=32,class="text-input")}}
+       </div>
+       <div class="form-group">
+         <label for="" class="s-btn">{{form.remember_me.label}}</label>
+         {{form.remember_me(class="s-l")}}
+       </div>
+       {{form.submit(class="btn")}}
+     </form>
+   </div>
+{% endblock %}
